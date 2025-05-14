@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE_URL = "https://gutenberg-backend.onrender.com";
 
 export async function fetchAnalysis(bookId) {
   const res = await fetch(`${API_BASE}/book/${bookId}`);
